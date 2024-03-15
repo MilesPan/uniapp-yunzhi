@@ -1,0 +1,1 @@
+<view class="container"><swiper class="swiper" indicator-dots="{{false}}" indicator-color="#90AC5A" bindchange="{{b}}" current="{{c}}"><swiper-item wx:for="{{a}}" wx:for-item="item" wx:key="c"><image class="img" src="{{item.a}}" mode="scaleToFill"></image><button type="primary" class="nextButton" bindtap="{{item.b}}">下一步</button></swiper-item></swiper></view>
